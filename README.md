@@ -50,8 +50,8 @@ Yeni bir öğrenci eklemek için:
 ```java
 Ogrenci eklenecekOgrenci = new Ogrenci();
 eklenecekOgrenci.setNo("2132132");
-eklenecekOgrenci.setAd("Ahmet");
-eklenecekOgrenci.setSoyad("Ali");
+eklenecekOgrenci.setAd("Ali Kağan");
+eklenecekOgrenci.setSoyad("Uyanık");
 eklenecekOgrenci.setKullaniciAdi("AllyKhan");
 
 ogrenciDao.ogrenciEkle(eklenecekOgrenci);
