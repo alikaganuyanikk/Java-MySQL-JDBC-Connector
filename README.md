@@ -44,3 +44,15 @@ if(arananOgrenci1 != null) {
 } else {
     System.out.println("Öğrenci bulunamadı");
 }
+```
+### Öğrenci Ekleme
+Yeni bir öğrenci eklemek için:
+```java
+Ogrenci eklenecekOgrenci = new Ogrenci();
+eklenecekOgrenci.setNo("2132132");
+eklenecekOgrenci.setAd("Ahmet");
+eklenecekOgrenci.setSoyad("Ali");
+eklenecekOgrenci.setKullaniciAdi("AllyKhan");
+
+ogrenciDao.ogrenciEkle(eklenecekOgrenci);
+```
