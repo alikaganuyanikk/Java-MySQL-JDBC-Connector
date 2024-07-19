@@ -66,7 +66,7 @@ Belirli bir öğrenci numarasına sahip öğrenciyi güncellemek için:
 ```java
 ogrenciDao.ogrenciGuncelle(eklenecekOgrenci, eklenecekOgrenci.getNo());
 ```
-# Proje Yapısı
+## Proje Yapısı
 
 - `dao.DataAccessObject.StartUp` : Uygulamanın giriş noktası.
 - `dao.DataAccessObject.OgrenciDAO` : Veritabanı işlemlerini gerçekleştiren sınıf.
