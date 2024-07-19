@@ -61,3 +61,14 @@ Belirli bir öğrenci numarasına sahip öğrenciyi silmek için:
 ```java
 ogrenciDao.ogrenciSil(eklenecekOgrenci);
 ```
+### Öğrenci Güncelleme
+Belirli bir öğrenci numarasına sahip öğrenciyi güncellemek için:
+```java
+ogrenciDao.ogrenciGuncelle(eklenecekOgrenci, eklenecekOgrenci.getNo());
+```
+### Proje Yapısı
+1.dao.DataAccessObject.StartUp : Uygulamanın giriş noktası.
+2.dao.DataAccessObject.OgrenciDAO : Veritabanı işlemlerini gerçekleştiren sınıf.
+3.com.MySQLJdbc.Models.Ogrenci : Öğrenci modelini temsil eden sınıf.
+
+
