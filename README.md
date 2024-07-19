@@ -31,3 +31,16 @@ Bu proje, MySQL veritabanı ile etkileşim kurarak öğrenci bilgilerini yönetm
     ```sh
     java -cp bin dao.DataAccessObject.StartUp
     ```
+## Kullanım
+
+### Öğrenci Sorgulama
+
+Belirli bir öğrenci numarasına sahip öğrenciyi sorgulamak için:
+
+```java
+Ogrenci arananOgrenci1 = ogrenciDao.getOgrenci("21181211");
+if(arananOgrenci1 != null) {
+    arananOgrenci1.bilgiVer();
+} else {
+    System.out.println("Öğrenci bulunamadı");
+}
