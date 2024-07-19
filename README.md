@@ -56,3 +56,8 @@ eklenecekOgrenci.setKullaniciAdi("AllyKhan");
 
 ogrenciDao.ogrenciEkle(eklenecekOgrenci);
 ```
+### Öğrenci Silme
+Belirli bir öğrenci numarasına sahip öğrenciyi silmek için:
+```java
+ogrenciDao.ogrenciSil(eklenecekOgrenci);
+```
