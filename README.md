@@ -19,3 +19,15 @@ Bu proje, MySQL veritabanı ile etkileşim kurarak öğrenci bilgilerini yönetm
         `soyadi` varchar(50) NOT NULL,
         PRIMARY KEY (`ID`)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+4. `OgrenciDAO.java` dosyasındaki `url`, `username` ve `password` değişkenlerini kendi MySQL sunucunuzun bilgileri ile güncelleyin.
+5. Proje dizininde terminal açarak aşağıdaki komutu çalıştırın:
+
+    ```sh
+    javac -d bin -sourcepath src src/dao/DataAccessObject/StartUp.java
+    ```
+
+6. Derlenen dosyayı çalıştırın:
+
+    ```sh
+    java -cp bin dao.DataAccessObject.StartUp
+    ```
