@@ -66,9 +66,11 @@ Belirli bir öğrenci numarasına sahip öğrenciyi güncellemek için:
 ```java
 ogrenciDao.ogrenciGuncelle(eklenecekOgrenci, eklenecekOgrenci.getNo());
 ```
-### Proje Yapısı
--.dao.DataAccessObject.StartUp : Uygulamanın giriş noktası.
--.dao.DataAccessObject.OgrenciDAO : Veritabanı işlemlerini gerçekleştiren sınıf.
--.com.MySQLJdbc.Models.Ogrenci : Öğrenci modelini temsil eden sınıf.
+# Proje Yapısı
+
+- `dao.DataAccessObject.StartUp` : Uygulamanın giriş noktası.
+- `dao.DataAccessObject.OgrenciDAO` : Veritabanı işlemlerini gerçekleştiren sınıf.
+- `com.MySQLJdbc.Models.Ogrenci` : Öğrenci modelini temsil eden sınıf.
+
 
 
