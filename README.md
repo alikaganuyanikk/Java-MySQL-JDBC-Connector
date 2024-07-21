@@ -17,7 +17,9 @@ Bu proje, MySQL veritabanı ile etkileşim kurarak öğrenci bilgilerini yönetm
         `username` varchar(45) NOT NULL,
         `adi` varchar(45) NOT NULL,
         `soyadi` varchar(45) NOT NULL,
-        PRIMARY KEY (`ID`)
+        PRIMARY KEY (`ID`, `ogrenciNo`),
+        UNIQUE KEY `unique_ogrenciNo` (`ogrenciNo`),
+        UNIQUE KEY `unique_username` (`username`)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 4. `OgrenciDAO.java` dosyasındaki `url`, `username` ve `password` değişkenlerini kendi MySQL sunucunuzun bilgileri ile güncelleyin.
 5. Proje dizininde terminal açarak aşağıdaki komutu çalıştırın:
