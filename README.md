@@ -11,15 +11,16 @@ Bu proje, MySQL veritabanı ile etkileşim kurarak öğrenci bilgilerini yönetm
 3. Aşağıdaki SQL sorgusunu kullanarak `ogrenciler` adında bir tablo oluşturun:
 
     ```sql
-    CREATE TABLE `ogrenciler` (
-        `ID` int(11) NOT NULL AUTO_INCREMENT,
-        `ogrenciNo` varchar(8) NOT NULL,
-        `username` varchar(45) NOT NULL,
-        `adi` varchar(45) NOT NULL,
-        `soyadi` varchar(45) NOT NULL,
+    CREATE TABLE `okul`.`ogrenciler` (
+        `ID` int NOT NULL AUTO_INCREMENT,
+        `ogrenciNo` varchar(8) NOT NULL DEFAULT '00000000',
+        `username` varchar(45) NOT NULL DEFAULT 'kullaniciAdiYok',
+        `adi` varchar(45) NOT NULL DEFAULT 'adiYok',
+        `soyadi` varchar(45) NOT NULL DEFAULT 'soyadiYok',
         PRIMARY KEY (`ID`, `ogrenciNo`),
-        UNIQUE KEY `unique_ogrenciNo` (`ogrenciNo`),
-        UNIQUE KEY `unique_username` (`username`)
+        UNIQUE INDEX 'ID_UNIQUE' (`ID`ASC)VISIBLE,
+        UNIQUE INDEX 'ogrenciNo_UNIQUE' (`ID`ASC)VISIBLE,
+        UNIQUE INDEX 'username_UNIQUE' (`ID`ASC)VISIBLE
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 4. `OgrenciDAO.java` dosyasındaki `url`, `username` ve `password` değişkenlerini kendi MySQL sunucunuzun bilgileri ile güncelleyin.
 5. Proje dizininde terminal açarak aşağıdaki komutu çalıştırın:
