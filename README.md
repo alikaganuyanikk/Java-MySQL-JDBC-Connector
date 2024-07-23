@@ -79,9 +79,9 @@ ogrenciDao.ogrenciGuncelle(eklenecekOgrenci, eklenecekOgrenci.getNo());
 
 <p float="left">
   <img src="https://github.com/alikaganuyanikk/Java-MySQL-JDBC-OgrenciYonetimSistemi
-/blob/main/list.png" width="200" />
+/tree/main/photos/list.png" width="200" />
   <img src="https://github.com/alikaganuyanikk/Java-MySQL-JDBC-OgrenciYonetimSistemi
-/blob/main/output.png" width="200" /> 
+/tree/main/photos/output.png" width="200" /> 
 </p>
 
 
