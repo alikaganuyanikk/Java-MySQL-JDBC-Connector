@@ -78,12 +78,10 @@ ogrenciDao.ogrenciGuncelle(eklenecekOgrenci, eklenecekOgrenci.getNo());
 ## Projeden Görüntüler
 
 <div align="center">
-  <img src="images/list.png" alt="Imitation Learning">
+  <img src="photos/list.png" alt="Imitation Learning">
   <p><em>Imitation Learning</em></p>
 </div>
-  <img src="https://github.com/alikaganuyanikk/Java-MySQL-JDBC-OgrenciYonetimSistemi
-/tree/main/photos/output.png" width="200" /> 
-</p>
+ 
 
 
 
