@@ -75,5 +75,15 @@ ogrenciDao.ogrenciGuncelle(eklenecekOgrenci, eklenecekOgrenci.getNo());
 - `dao.DataAccessObject.OgrenciDAO` : Veritabanı işlemlerini gerçekleştiren sınıf.
 - `com.MySQLJdbc.Models.Ogrenci` : Öğrenci modelini temsil eden sınıf.
 
+## Projeden Görüntüler
+
+<p float="left">
+  <img src="https://github.com/alikaganuyanikk/Java-MySQL-JDBC-OgrenciYonetimSistemi
+/blob/main/list.png" width="200" />
+  <img src="https://github.com/alikaganuyanikk/Java-MySQL-JDBC-OgrenciYonetimSistemi
+/blob/main/output.png" width="200" /> 
+</p>
+
+
 
 
