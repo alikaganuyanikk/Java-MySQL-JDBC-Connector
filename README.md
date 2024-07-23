@@ -82,6 +82,11 @@ ogrenciDao.ogrenciGuncelle(eklenecekOgrenci, eklenecekOgrenci.getNo());
   <p><em>Imitation Learning</em></p>
 </div>
  
+<div align="center">
+  <img src="photos/list.png" alt="Imitation Learning" style="display: inline-block; margin-right: 10px;">
+  <img src="photos/output.png" alt="New Image" style="display: inline-block;">
+  <p><em>Imitation Learning</em></p>
+</div>
 
 
 
