@@ -22,6 +22,13 @@ Bu proje, MySQL veritabanı ile etkileşim kurarak öğrenci bilgilerini yönetm
         UNIQUE INDEX 'ogrenciNo_UNIQUE' (`ID`ASC)VISIBLE,
         UNIQUE INDEX 'username_UNIQUE' (`ID`ASC)VISIBLE
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+<div align="center">
+  <img src="images/schema.png" alt="Imitation Learning">
+  <p><em>MySQL'de tabloyu oluşturmak için</em></p>
+</div>
+
+
+    
 4. `OgrenciDAO.java` dosyasındaki `url`, `username` ve `password` değişkenlerini kendi MySQL sunucunuzun bilgileri ile güncelleyin.
 5. Proje dizininde terminal açarak aşağıdaki komutu çalıştırın:
 
