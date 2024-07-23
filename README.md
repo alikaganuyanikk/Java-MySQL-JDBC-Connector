@@ -23,7 +23,7 @@ Bu proje, MySQL veritabanı ile etkileşim kurarak öğrenci bilgilerini yönetm
         UNIQUE INDEX 'username_UNIQUE' (`ID`ASC)VISIBLE
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 <div align="center">
-  <img src="images/schema.png" alt="Imitation Learning">
+  <img src="photos/schema.png" alt="Imitation Learning">
   <p><em>MySQL'de tabloyu oluşturmak için</em></p>
 </div>
 
