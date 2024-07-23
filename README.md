@@ -76,16 +76,10 @@ ogrenciDao.ogrenciGuncelle(eklenecekOgrenci, eklenecekOgrenci.getNo());
 - `com.MySQLJdbc.Models.Ogrenci` : Öğrenci modelini temsil eden sınıf.
 
 ## Projeden Görüntüler
-
-<div align="center">
-  <img src="photos/list.png" alt="Imitation Learning">
-  <p><em>Imitation Learning</em></p>
-</div>
- 
 <div align="center">
   <img src="photos/list.png" alt="Imitation Learning" style="display: inline-block; margin-right: 10px;">
   <img src="photos/output.png" alt="New Image" style="display: inline-block;">
-  <p><em>Imitation Learning</em></p>
+  <p><em>Projedeki örnek verilerin Java IDE'de ve MySQL veri tabanında görünümü</em></p>
 </div>
 
 
